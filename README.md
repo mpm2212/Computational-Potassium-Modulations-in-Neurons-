@@ -4,10 +4,10 @@ This code was originally written in MatLab for my Computational Neuroscience Cla
 
 Conductance Based Model Summary
 
-This experiment is meant to demonstrate the effect of potassium concentrations on the action potentials of a Connor Steven conductance based model. A key feature of this model is the inclusion of an outward potassium current (Miller 433) denoted by the variable IA in the experiment. Although it describes a potassium current, its behavior is more similar to the current of sodium. This can be most noted in their respective equations:
-IK = GK,max*n4*(EK-Vm)
-INa = GNa,max*m3*h*(ENa-Vm)
-IA = GA,max*a3*b*(EA-Vm)
+This experiment is meant to demonstrate the effect of potassium concentrations on the action potentials of a Connor Steven conductance based model. A key feature of this model is the inclusion of an outward potassium current (Miller 433) denoted by the variable IA in the experiment. Although it describes a potassium current, its behavior is more similar to the current of sodium. This can be most noted in their respective equations:  //
+$IK = GK,max*n4*(EK-Vm)
+$INa = GNa,max*m3*h*(ENa-Vm)
+$IA = GA,max*a3*b*(EA-Vm) //
 where Gx, max is the maximum ion conductance and Vm is the membrane voltage of the neuron. 
  The following graphs were created in the controlled condition to observe the similarities between the gated variables of sodium and the outward potassium current. In the sodium channel, m is the activation gate and h is the inactivation gate. Similarly, a is the activation gated in IA  while b  is its inactivation gate. Both graphs demonstrate a significant change when the applied current is changed at 50 ms. The gates in the respective channels work in opposite directions, following the opening and closing of the respective gates to prevent the action potential from infinitely increasing. Interestingly, A’s gated variables follow the same general curve until the applied current changes from 0. At this point, the a graph begins to exponentially increase while the b graph simultaneously decreases.
 
