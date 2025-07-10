@@ -22,6 +22,7 @@ The applied current was chosen after conducting several trials using various val
 
 
 Works Cited
+
 Braun, Jochen. “Theoretical Neuroscience I.” https://bernstein-network.de/wp-content/uploads/2021/02/05_Lecture-05-Hodgkin-Huxley-experiments.pdf.
 
 
